@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gruping Tags</title>
+    <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: rgb(207, 186, 159);
+        }
+
+        header{
+            background-color: rgb(245, 255, 250);
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rgb(99, 87, 71);
+            padding: 3px;
+            box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.377);
+        }
+
+        nav > a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 30px;
+
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main{
+            background-color: rgb(245, 255, 250);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 15px 0px;
+            box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.548);
+        }
+
+        article{
+            background-color: rgba(211, 253, 253, 0.705);
+        }
+
+        article > aside {
+            background-color: rgba(164, 196, 196, 0.705) ;
+        }
+
+        footer{
+            background-color: rgb(60, 62, 65);
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+        
+        div#bola {
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            margin: 10px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes, Jogos e Tecnologia</p>
+        </section>
+        <section id="notícias">
+            <article>
+                <h2>Notícia Sobre o Brasil</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur saepe ullam iure molestias. Quam natus quos tempore necessitatibus maxime consequatur. Repudiandae, cum nobis earum eius esse dicta illum harum itaque.</p>
+                <aside>
+                    <p>Artigo escrito por Liana.</p>
+                </aside>
+            </article>
+            <article>
+                <aside>
+
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Leonardo Luis.</p>
+    </footer>
+    <div id="bola">
+
+    </div>
+</body>
+</html>
