@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
 body{
-    background-color: rgb(93, 31, 124);
+    background: url(../imagens/cev-landscape.jpg);
+    background-position: left bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
