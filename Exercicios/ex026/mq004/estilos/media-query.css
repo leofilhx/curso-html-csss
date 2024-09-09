@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+/*demais telas*/
+
+/*Typical Device Breakpoints
+---------------------------
+Pequenas Telas: até 600px
+Celular: de 600px até 768px
+Tablet: 768px até 992px
+Desktop: 992px até 1200px
+Tv: acima de 1200px
+*/
+
+@media print {
+    * {
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    main {
+        width: 90vw;
+        border: 2px solid black;
+    }
+
+    main h1 {
+        text-shadow: none;
+        color: black;
+    }
+
+    main::after {
+        content: 'Essa impressão foi disponibilizada por leonardo lindo';
+    }
+    
+    img#phone {display: none;}
+    img#tablet {display: none;}
+    img#impre {display: block;}
+    img#pc {display: none;}
+    img#tv {display: none;}
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        background: black url(../imagens/back-tablet.jpg) no-repeat center center;
+    }
+    
+    img#phone {display: none;}
+    img#tablet {display: block;}
+    img#impre {display: none;}
+    img#pc {display: none;}
+    img#tv {display: none;}
+
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    body {
+        background: black url(../imagens/back-pc.jpg) no-repeat center center;
+    }
+    
+    img#phone {display: none;}
+    img#tablet {display: none;}
+    img#impre {display: none;}
+    img#pc {display: block;}
+    img#tv {display: none;}
+}
+
+@media screen and (min-width: 1201px) {
+    body {
+        background: black url(../imagens/back-tv.jpg) no-repeat center center;
+    }
+    
+    img#phone {display: none;}
+    img#tablet {display: none;}
+    img#impre {display: none;}
+    img#pc {display: none;}
+    img#tv {display: block;}
+}
