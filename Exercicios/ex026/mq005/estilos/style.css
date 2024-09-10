@@ -17,8 +17,22 @@ header h1 {
     text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.459);
 }
 
-menu {
+#menu {
+    background-color: rgba(14, 55, 97, 0.37);
     display: block;
+    color: white;
+    text-align: center;
+    padding: 7px;
+    cursor: pointer;
+}
+
+#menu:hover {
+    background-color: rgba(255, 255, 255, 0.384); 
+    color: black;
+}
+
+menu {
+    display: none;
 }
 
 menu li {
