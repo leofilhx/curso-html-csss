@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexible box</title>
+    <style>
+        .conteiner {
+            background-color: rgb(166, 253, 253);
+            
+            display: flex;
+            flex-flow: row nowrap;
+        }
+
+        .item {
+            background-color: beige;
+            border: 1px solid black;
+            text-align: center;
+
+            flex-basis: 200px;
+            flex-shrink: 1;
+            flex-grow: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est enim facilis vitae ex aspernatur, mollitia minima provident quam itaque velit rerum sunt iure ipsa ipsum ratione nesciunt corrupti iste placeat.</div>   
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae debitis ea natus explicabo fugiat at, officiis quidem reiciendis molestias a sed dolore enim nihil aliquam ratione. Eum rerum accusantium est? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem incidunt expedita odit accusamus consequatur a quis repellendus, culpa, quasi omnis laudantium, nostrum maxime! Exercitationem vel quia animi facere dolores sint.</div> 
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla illo voluptatem esse hic, beatae cum saepe nostrum in eligendi facere! Necessitatibus fuga eligendi illum assumenda rerum quidem dolor quod corrupti! Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quae illo dicta eligendi unde animi cupiditate eveniet. Dolore corporis ut vitae quisquam quidem quasi, molestias voluptate saepe quae modi dignissimos! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt tempora repellendus delectus odit, magni assumenda dolorum non consequatur velit expedita! Eligendi voluptatum corrupti ut? Dolores asperiores perspiciatis expedita ratione dolorem.</div> 
+    </div>
+</body>
+</html>
